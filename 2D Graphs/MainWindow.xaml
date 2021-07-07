@@ -1,0 +1,12 @@
+﻿<Window x:Class="_2D_Graphs.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="MainWindow" Height="500" Width="500" Loaded="Window_Loaded">
+    <Grid Name="xamlGrid">
+        <Viewbox Stretch="Fill">
+            <Border BorderBrush="Black" BorderThickness="1" Margin="5">
+                <Canvas Name="chartCanvas" Width="250" Height="200" ClipToBounds="True"/>
+            </Border>
+        </Viewbox>
+    </Grid>
+</Window>
